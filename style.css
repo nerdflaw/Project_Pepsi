@@ -1,0 +1,448 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #0025ff;
+	color: white;
+	width: 100%;
+}
+
+.brand-logo {
+	width: 60px;
+	height: 60px;
+	margin: 10px 20px;
+	cursor: pointer;
+}
+
+.navbar select {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 900;
+	cursor: pointer;
+	margin-left: 100Px;
+}
+
+.navbar-links ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar-links li {
+	list-style: none;
+}
+
+.navbar-links li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	display: block;
+	font-size: 14px;
+	font-weight: 900;
+	margin-right: 100Px;
+}
+
+.toggle-button {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.toggle-button .bar {
+	height: 3px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.navbar-links ul li input {
+	background-color: transparent;
+	outline: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 900;
+	margin-right: 42px;
+	border: 2px solid #ffffff;
+	width: 200px;
+	height: 32px;
+	padding: 10px 10px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+::placeholder {
+	outline: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 900;
+	cursor: pointer;
+	margin-right: 0px;
+	text-align: center;
+}
+
+.hero-section-container-1 .video-section-1 {
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+}
+
+.hero-section-container-2 .video-section-2 {
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+}
+
+.hero-section-container-1 .video-section-1 video,
+.hero-section-container-2 .video-section-2 video {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.section-1 .pepsi-125,
+.section-1 .pepsi-125-diner,
+.section-1 .pepsi-125-diner-legal,
+.section-3 .pepsi-125-follow-pepsi {
+	text-align: center;
+	background-color: #000;
+	color: #ffffff;
+}
+
+.section-1 .pepsi-125 h2 {
+	font-size: 70px;
+	font-weight: 900;
+	margin-top: 50px;
+	padding: 0;
+}
+
+.section-1 .pepsi-125 .h3-1,
+.section-1 .pepsi-125 .h3-2 {
+	padding: 0;
+	font-size: 42px;
+	font-weight: 900;
+	margin-top: -10px;
+}
+
+.section-1 .pepsi-125 .h3-2 {
+	color: #0025ff;
+	margin-bottom: 50px;
+}
+
+.section-1 img {
+	padding: 0;
+	object-fit: cover;
+}
+
+.section-1 .pepsi-125-diner h2 {
+	font-size: 52px;
+	font-weight: 900;
+	margin-top: 50px;
+}
+
+.section-1 .pepsi-125-diner .h3-1 {
+	font-size: 35px;
+	font-weight: 900;
+	padding: 0;
+	margin-top: -10px;
+	color: #0025ff;
+}
+
+.section-1 .pepsi-125-diner .h3-2 {
+	font-size: 70px;
+	font-weight: 900;
+	padding: 0;
+	margin-top: -10px;
+	color: #0025ff;
+}
+
+.section-1 .pepsi-125-diner .h3-2 span {
+	font-size: 70px;
+	font-weight: 900;
+	padding: 0;
+	margin-bottom: 50px;
+	color: #ffffff;
+}
+
+.section-1 .pepsi-125-diner-legal .para-1 {
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.section-1 .pepsi-125-diner-legal .para-2 {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.section-2 {
+	background-image: url(./images/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.section-2 .pepsi-bottle img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.section-2 .apple-music img {
+	object-fit: cover;
+	margin-top: 50px;
+	width: 90%;
+}
+
+.section-2 .apple-music button {
+	width: 160px;
+	text-align: center;
+	background-color: transparent;
+	outline: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 900;
+	cursor: pointer;
+	border: 2px solid #ffffff;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.section-2 .apple-music p {
+	text-align: center;
+	background-color: transparent;
+	outline: none;
+	color: #ffffff;
+	font-size: 12px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.section-2 .apple-music a {
+	text-align: center;
+	background-color: transparent;
+	outline: none;
+	color: #ffffff;
+	font-size: 12px;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+.section-3 {
+	background-color: #000;
+	padding: 60px 100px;
+}
+
+.section-3 .pepsi-125-follow-pepsi h2 {
+	font-size: 52px;
+	font-weight: 900;
+	color: #0025ff;
+	text-align: center;
+}
+
+.section-3 .social-media-connect {
+	border: 5px solid #0025FF;
+}
+
+.section-3 .social-media-connect .image-container {
+	width: calc(100%/6);
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+
+}
+
+.section-3 .social-media-connect .image-container .poster {
+	width: 100%;
+	overflow: hidden;
+}
+
+.section-3 .social-media-connect .image-container .icons {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+}
+
+.section-3 .social-media-connect .image-container img {
+	transition: 0.5s ease-in-out;
+	overflow: hidden;
+}
+
+.section-3 .social-media-connect .image-container img:hover {
+	transform: scale(1.2) rotate(10deg);
+	opacity: 0.5;
+}
+
+.footer-banner {
+	background-color: #0025FF;
+	height: 300px;
+}
+
+.footer-banner .footer-logo img {
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-banner .footer-links ul {
+	padding: 0;
+	margin: 0;
+}
+
+.footer-banner .footer-links ul li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 30px;
+	cursor: pointer;
+	transition: opacity 0.5s;
+}
+
+.footer-banner .footer-social-icons img {
+	width: 32px;
+	height: 32px;
+	transition: opacity 0.5s;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-banner .footer-social-icons img:hover,
+.footer-banner .footer-links ul li:hover {
+	opacity: 0.5;
+}
+
+.cookie-button {
+	position: fixed;
+	bottom: 5px;
+	left: 5px;
+	width: 200px;
+	height: 45px;
+	object-fit: cover;
+	transition: 0.5s ease-in
+}
+.cookie-button:hover {
+	opacity: 0.1;
+}
+
+/* media-query start */
+
+@media (max-width: 1024px) {
+	.toggle-button {
+		display: flex;
+	}
+
+	.navbar-links {
+		display: none;
+		width: 100%;
+		height: 50vh;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.navbar-links ul {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.navbar-links li {
+		text-align: center;
+	}
+
+	.navbar-links li a {
+		padding: 5px 10px;
+	}
+
+	.navbar-links.active {
+		display: flex;
+	}
+}
+
+@media (max-width: 520px) {
+	.section-1 .pepsi-125 h2 {
+		font-size: 50px;
+	}
+
+	.section-1 .pepsi-125-diner-legal .para-1,
+	.section-1 .pepsi-125-diner-legal .para-2,
+	.section-2 .apple-music p,
+	.section-2 .apple-music a {
+		font-size: 8px;
+	}
+
+	.navbar select {
+		margin-left: 10Px;
+	}
+}
+@media (max-width: 320px) {
+	.navbar select {
+		font-size: 10px;
+	}
+	.section-1 .pepsi-125 h2 {
+		font-size: 42px;
+	}
+	.section-1 .pepsi-125-diner h2 {
+		font-size: 42px;
+	}
+	.section-1 .pepsi-125-diner .h3-2,
+	.section-1 .pepsi-125-diner .h3-2 span {
+		font-size: 53px;
+	}
+	.section-1 .pepsi-125-diner-legal .para-1, 
+	.section-1 .pepsi-125-diner-legal .para-2, 
+	.section-2 .apple-music p, 
+	.section-2 .apple-music a {
+		font-size: 7px;
+	}
+	.section-3 .pepsi-125-follow-pepsi h2 {
+		font-size: 40px;
+	}
+	.section-3 .social-media-connect {
+		display: none;
+	}
+	.footer-banner .footer-logo img {
+		width: 70px;
+		height: 70px;
+	}
+	.footer-banner .footer-links ul li {
+		padding: 0 5px;
+		font-size: 9px;
+		font-weight: 700;
+	}
+}
+
+
+/* media-query end*/
